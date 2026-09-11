@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Dev / test files
+.env
+.env.*
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.sql
+
+# Version control
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# PostgreSQL local data
+pg_data/
+
+# Test and dev scripts
+verify_apis*.py
+run_backend_tests.py
+write_frontend.py
+write_followup_jsx.py
+find_pgadmin_db.py

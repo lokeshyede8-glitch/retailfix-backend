@@ -1,0 +1,10 @@
+import jwt
+from auth_utils import JWT_SECRET_KEY, JWT_ALGORITHM
+
+token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkMmVhMTI3MS1iNDVhLTRhNmEtYWY3OS0xNDQ4MDFkNDhlMjIiLCJ1c2VyX2lkIjoiZDJlYTEyNzEtYjQ1YS00YTZhLWFmNzktMTQ0ODAxZDQ4ZTIyIiwicm9sZSI6InNhbGVzbWFuIiwianRpIjoiYzc3ZjYxNzAtYWI0Ny00OTc3LWI1ZWUtNWM4YzljYmM1MDk2Iiwic2Vzc2lvbl9pZCI6ImM3N2Y2MTcwLWFiNDctNDk3Ny1iNWVlLTVjOGM5Y2JjNTA5NiIsInVzZXJuYW1lIjoibG9rZXNoX3llZGUiLCJtdXN0X2NoYW5nZV9wYXNzd29yZCI6ZmFsc2UsImV4cCI6MTc4ODUxMDAyMCwidHlwZSI6ImFjY2VzcyIsImlzcyI6InJldGFpbGZpeF9jcm0iLCJhdWQiOiJyZXRhaWxmaXhfdXNlcnMifQ.bj7q-d2FY5HU-a6ze4cywMlFQOW2kt2CB5fhgNm4A3Q"
+
+try:
+    decoded = jwt.decode(token, JWT_SECRET_KEY, algorithms=[JWT_ALGORITHM], audience="retailfix_users", issuer="retailfix_crm")
+    print(decoded)
+except Exception as e:
+    print("FAILED", type(e).__name__, e)

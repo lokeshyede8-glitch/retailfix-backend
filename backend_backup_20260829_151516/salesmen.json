@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "name": "Jay Yede",
+    "phone": "07583814730",
+    "email": "jayyede93@gmail.com",
+    "pin": "$2b$12$6c4Pmhd0zr.x4P.aeIkC.OtX.N/1CdU3X8heSY61bdRmiHaQX2IQ6",
+    "area": "bhopal",
+    "active": true,
+    "created_at": 1784390980902
+  },
+  {
+    "id": "test-salesman-id",
+    "name": "test_salesman",
+    "phone": "9999999999",
+    "email": null,
+    "pin": "$2b$12$Ia4XTQcFGLFmfWMLyQ4/aeeydiL0D5SWvfaJhyom9ENweJ7YwiPM6",
+    "area": "",
+    "active": true,
+    "created_at": 1784655356220
+  }
+]

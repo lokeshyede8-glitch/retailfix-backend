@@ -1,0 +1,101 @@
+[
+  {
+    "id": "d65d08c1-e54e-4fa4-85d3-cad3b40c4691",
+    "name": "7\u2019 \u00d7 2\u2019 Customized Wall Rack",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 4750.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "620914af-d4b3-4427-b2a2-70e53974d20b",
+    "name": "7\u2019 \u00d7 2\u2019 \u00d7 2\u2019 Corner Rack",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 8000.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "be02ad24-6ee5-4ab0-ab44-a3c9e6a49d86",
+    "name": "7\u2019 Extra Leg",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 800.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "d2525743-f7d1-4451-9c46-0146a45ff61b",
+    "name": "65 Ltr. Trolley",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 3100.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "35137bb3-580b-49f4-b792-519ca65dc9fb",
+    "name": "29\u201d Depth Broom Stand",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 2900.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "9f4af572-b7ef-4b7a-af5a-aeb58684db01",
+    "name": "Case counter",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 32500.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "84a3005b-b842-413d-842e-7d09c490cca6",
+    "name": "5\u2019 \u00d7 3\u2019 End Cap",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 4600.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "139c5a5a-37b3-4489-9cd3-844fe28c48b8",
+    "name": "7\u2019 \u00d7 4\u2019 Wall Rack",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 7000.0,
+    "desc": "",
+    "hsn_code": "7623"
+  },
+  {
+    "id": "dd836fb8-6cc7-481f-a314-08b3b5a252a5",
+    "name": "7\u2019 \u00d7 3\u2019 Wall Rack",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 5600.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "b778df21-fb4c-46a9-ac3a-b9f786594595",
+    "name": "7\u2019 \u00d7 3\u2019 Perforated Rack with 22 SS Peg Hooks",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 6100.0,
+    "desc": "",
+    "hsn_code": "7326"
+  },
+  {
+    "id": "24b4fccd-37a1-4a60-a010-a792ee5428d4",
+    "name": "5\u2019 \u00d7 3\u2019 Centre Rack",
+    "category": "Supermarket",
+    "unit": "per piece",
+    "price": 7500.0,
+    "desc": "",
+    "hsn_code": "7326"
+  }
+]

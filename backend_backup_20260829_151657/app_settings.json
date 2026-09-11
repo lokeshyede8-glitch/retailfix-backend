@@ -1,0 +1,10 @@
+[
+  {
+    "key": "company_profile",
+    "value": "{\"name\": \"RetailFix\", \"tagline\": \"Store Fixtures & Display Solutions\", \"address\": \"Plot No. 63, Govindpura Industrial Area, Bhopal, Madhya Pradesh, 462023, India\", \"phone\": \"+91-92019 58481, 92019 58486\", \"email\": \"info@retailfix.in\", \"web\": \"retailfix.in\", \"gstin\": \"23AAAAA0000A1Z0\", \"bankName\": \"HDFC Bank\", \"accountHolder\": \"RetailFix\", \"accountNumber\": \"50200012345678\", \"ifscCode\": \"HDFC0001234\", \"branch\": \"Govindpura, Bhopal\", \"logo_url\": \"/uploads/logo_retailfix.png\"}"
+  },
+  {
+    "key": "doc_settings",
+    "value": "{\"validityDays\": 15, \"footerNote\": \"Thank you for choosing RetailFix. We look forward to doing business with you.\", \"advancePercent\": 50, \"fullPaymentDiscount\": 5, \"page2_enabled\": true, \"page3_enabled\": true, \"payment_qr\": \"/uploads/payment_qr.png\", \"auth_image\": \"/uploads/auth_image.png\", \"company_seal\": \"/uploads/company_seal.png\", \"auth_signature\": \"/uploads/auth_signature.png\"}"
+  }
+]

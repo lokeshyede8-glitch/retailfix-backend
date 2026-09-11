@@ -1,0 +1,44 @@
+[
+  {
+    "id": "bb23f474-28ba-4c8d-85a6-b3eea57cf0d6",
+    "text": "Prices are factory rates \u2014 no middlemen, no hidden costs.",
+    "display_order": 1,
+    "is_enabled": true
+  },
+  {
+    "id": "a9b091db-81ba-4fc2-bc57-3fee993da324",
+    "text": "Delivery: 7\u201315 working days from order confirmation, depending on quantity & customization.",
+    "display_order": 3,
+    "is_enabled": true
+  },
+  {
+    "id": "947fa901-ae02-426d-bdb8-e7864b513292",
+    "text": "GST as applicable will be charged extra unless already included above.",
+    "display_order": 4,
+    "is_enabled": true
+  },
+  {
+    "id": "c7056937-007c-4a08-a697-7fd937b575e3",
+    "text": "Installation support available on request.",
+    "display_order": 5,
+    "is_enabled": true
+  },
+  {
+    "id": "262f05d7-39db-4356-a70b-17f4e04bff31",
+    "text": "Quotation valid for 15 days from the date of issue.",
+    "display_order": 6,
+    "is_enabled": true
+  },
+  {
+    "id": "8b5cdff5-2b97-4344-9c05-0e1e749ab55e",
+    "text": "50% advance payment required to confirm order; balance before/at delivery.",
+    "display_order": 2,
+    "is_enabled": true
+  },
+  {
+    "id": "b6d037a2-6138-42b5-a56d-050216c4c432",
+    "text": "installation charge is 120 pr rack",
+    "display_order": 7,
+    "is_enabled": true
+  }
+]

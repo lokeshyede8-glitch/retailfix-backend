@@ -1,0 +1,26 @@
+[
+  {
+    "id": "95032a5f-2f09-4e4d-9230-71cf42bc83a6",
+    "text": "Bracket 12 gauge",
+    "display_order": 2,
+    "is_enabled": true
+  },
+  {
+    "id": "a41121d4-2801-48c9-ad6f-25a7a44c7e82",
+    "text": " Back panel 22 gauge",
+    "display_order": 3,
+    "is_enabled": true
+  },
+  {
+    "id": "2d5063d4-56ce-43cd-a1ba-c527fb2962bd",
+    "text": " Leg 12 gauge",
+    "display_order": 4,
+    "is_enabled": true
+  },
+  {
+    "id": "cf17814f-843c-4c5a-bd8d-33eb987de7a6",
+    "text": "Shelf 18 gauge",
+    "display_order": 1,
+    "is_enabled": true
+  }
+]

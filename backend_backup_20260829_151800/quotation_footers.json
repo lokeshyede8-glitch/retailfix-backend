@@ -1,0 +1,14 @@
+[
+  {
+    "id": "6968666b-c86a-4448-a835-ffbbcc2b67f4",
+    "text": "THANK YOU FOR YOUR BUSINESS",
+    "display_order": 1,
+    "is_enabled": true
+  },
+  {
+    "id": "49135e6c-ed3c-4727-9032-7125efa63bee",
+    "text": "All disputes are subject to Bhopal jurisdiction only.",
+    "display_order": 2,
+    "is_enabled": true
+  }
+]

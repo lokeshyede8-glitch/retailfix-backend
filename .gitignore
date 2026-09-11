@@ -1,0 +1,77 @@
+# Environment
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL Dumps
+*.sql
+*.dump
+*.backup
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Uploads (if local uploads are used)
+uploads/
+media/
+temp/
+
+# Secrets
+secrets.json
+credentials.json
+
+# Python cache
+*.pyo
+*.pyd
+
+# Temporary
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+
+# PostgreSQL local data
+pg_data/
+*.log
+
+pg_log.txt

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "4b9a6949-4f6b-4f36-99bc-c8ebd9d149b9",
+    "platform": "WhatsApp",
+    "icon": "whatsapp",
+    "qr_code_url": "/uploads/qr_whatsapp.png",
+    "cta_text": "Scan to Chat",
+    "display_order": 1,
+    "is_enabled": true
+  },
+  {
+    "id": "e229b74c-0132-48f4-8b53-ce301b05b3c2",
+    "platform": "Instagram",
+    "icon": "instagram",
+    "qr_code_url": "/uploads/qr_instagram.png",
+    "cta_text": "Follow Us",
+    "display_order": 2,
+    "is_enabled": true
+  },
+  {
+    "id": "981ec35e-cdfd-4ba3-b80f-e1d18ff6978a",
+    "platform": "Facebook",
+    "icon": "facebook",
+    "qr_code_url": "/uploads/qr_facebook.png",
+    "cta_text": "Like Page",
+    "display_order": 3,
+    "is_enabled": true
+  },
+  {
+    "id": "580d529a-2336-42cc-a59a-55646249aafb",
+    "platform": "YouTube",
+    "icon": "youtube",
+    "qr_code_url": "/uploads/qr_youtube.png",
+    "cta_text": "Watch Videos",
+    "display_order": 4,
+    "is_enabled": true
+  },
+  {
+    "id": "64987fe0-6852-429b-a7e4-0ce7c6b65784",
+    "platform": "LinkedIn",
+    "icon": "linkedin",
+    "qr_code_url": "/uploads/qr_linkedin.png",
+    "cta_text": "Connect",
+    "display_order": 5,
+    "is_enabled": true
+  },
+  {
+    "id": "797f5f2b-3f77-4ef7-8b51-209c9c8bef4b",
+    "platform": "Website",
+    "icon": "globe",
+    "qr_code_url": "/uploads/qr_website.png",
+    "cta_text": "Visit Website",
+    "display_order": 6,
+    "is_enabled": true
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "test-admin-id",
+    "username": "admin",
+    "password_hash": "$2b$12$8WuaR33L79EBovL2lzuHlOHy/FpwRoiC16vLHWM9dZGwAGLNrTs22",
+    "email": "admin@retailfix.com"
+  }
+]

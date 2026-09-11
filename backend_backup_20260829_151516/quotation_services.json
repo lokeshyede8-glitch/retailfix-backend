@@ -1,0 +1,50 @@
+[
+  {
+    "id": "48a0603a-e626-4c63-b3ec-25f3a7f2e680",
+    "name": "Store Planning",
+    "display_order": 1,
+    "is_enabled": true
+  },
+  {
+    "id": "8a40e00d-c038-4a8d-97ad-21a73db5357e",
+    "name": "Interior Design",
+    "display_order": 2,
+    "is_enabled": true
+  },
+  {
+    "id": "aa11b1d2-ee46-4137-9175-af455e46c94a",
+    "name": "Display Racks",
+    "display_order": 3,
+    "is_enabled": true
+  },
+  {
+    "id": "f75c3316-9082-4d5f-98c1-004af0e4f8f1",
+    "name": "Billing Counter",
+    "display_order": 4,
+    "is_enabled": true
+  },
+  {
+    "id": "e29f2aa8-278f-4958-af0f-ded4625047e2",
+    "name": "Branding",
+    "display_order": 5,
+    "is_enabled": true
+  },
+  {
+    "id": "a6cd98de-5d0c-4dc4-8e06-718b979f1ff2",
+    "name": "Installation",
+    "display_order": 6,
+    "is_enabled": true
+  },
+  {
+    "id": "d19d5939-d145-4698-9713-fd9bdfa6e0d1",
+    "name": "3D Layout",
+    "display_order": 7,
+    "is_enabled": true
+  },
+  {
+    "id": "87b3de2c-2889-45fa-a84b-1c2293fae7fb",
+    "name": "Store Renovation",
+    "display_order": 8,
+    "is_enabled": true
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "c989ac0a-cb1c-4c5e-b72b-84593aa1b004",
+    "lead_id": "e15aa856-fba7-452f-80f7-067514140700",
+    "salesman_id": "",
+    "salesman_name": "jay_yede",
+    "activity_type": "Visit Note",
+    "old_value": "",
+    "new_value": "",
+    "remark": "kl baat krna hai",
+    "latitude": null,
+    "longitude": null,
+    "created_at": 1784458572049
+  },
+  {
+    "id": "0c3807f7-d820-4e5a-8f6f-3da12b25711a",
+    "lead_id": "e15aa856-fba7-452f-80f7-067514140700",
+    "salesman_id": "",
+    "salesman_name": "jay_yede",
+    "activity_type": "Location Captured",
+    "old_value": "",
+    "new_value": "",
+    "remark": "",
+    "latitude": 23.259644,
+    "longitude": 77.454308,
+    "created_at": 1784458572261
+  },
+  {
+    "id": "4672263f-5c2b-40f3-b9ab-049607700701",
+    "lead_id": "e15aa856-fba7-452f-80f7-067514140700",
+    "salesman_id": "",
+    "salesman_name": "jay_yede",
+    "activity_type": "Status Changed",
+    "old_value": "New",
+    "new_value": "Converted",
+    "remark": "Status changed from New to Converted",
+    "latitude": null,
+    "longitude": null,
+    "created_at": 1784458741962
+  }
+]

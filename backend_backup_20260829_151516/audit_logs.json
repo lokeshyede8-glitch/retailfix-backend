@@ -1,0 +1,2532 @@
+[
+  {
+    "id": "24de7035-7f56-436b-9495-69829c6e182d",
+    "user_id": "e88d020a-15e0-4c15-bb4d-26b90c8bbc19",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784366273890,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "68a3bdef-af7c-4922-86f4-7afb91007a0a",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784387348238,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "4eae0000-6f6a-4f0a-b4cc-cd9a0d011e64",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784391003251,
+    "details": "User logged out"
+  },
+  {
+    "id": "eaf830c8-5809-4015-bb8f-c50f19455743",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784391026773,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "427fadf2-a177-46f8-8446-a34d2c13bbb4",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784391759374,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "c561f415-2442-45cf-898d-04854316df35",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784391811027,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "5f706c7a-34a1-4e6f-9054-2dd312b60f35",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784391815332,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "479f9c6f-201d-4c5b-a235-b9bdbd41dd32",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784391819779,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "d2480265-db00-43f9-a2bc-ad8b580e15a1",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Account Locked",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784391825283,
+    "details": "Account locked automatically due to 5 failed login attempts in 15 minutes"
+  },
+  {
+    "id": "e304e566-bf6d-45ef-a54f-06a6f71b1176",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784391825283,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "02b867e2-7af6-4a61-8333-871bc8c3eaf6",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784392534903,
+    "details": "User logged out"
+  },
+  {
+    "id": "73f005ed-a123-4c9b-aa0b-9c5d0bbb4319",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784392812675,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c5f60293-4480-4c31-8696-5735c6be491b",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784392891236,
+    "details": "User logged out"
+  },
+  {
+    "id": "16a663cc-b8b7-4f76-ac41-0106e9808b07",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784392915119,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "abc7992c-173c-480b-a49a-df7743641241",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784393006190,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "24754e45-dcb7-4c7e-b15d-9774283bd831",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784400714341,
+    "details": "User logged out"
+  },
+  {
+    "id": "1c92b65f-7838-4854-bb8f-0e4e5af5a6f3",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784400726597,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "0ff23a25-f758-457d-adb1-555f4473892f",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447769444,
+    "details": "User logged out"
+  },
+  {
+    "id": "83da66a4-3f2a-4121-b34d-0816d02c2be5",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447807035,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "af5b642b-8747-450c-be0a-f7011828288b",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447817392,
+    "details": "User logged out"
+  },
+  {
+    "id": "39db7671-cac8-4064-a6cf-557f5c22fcea",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "jayyede43@gmail.com",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447836921,
+    "details": "Failed login attempt for username: jayyede43@gmail.com"
+  },
+  {
+    "id": "fd10866b-ae61-4948-b9aa-b12068c094cf",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447841283,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "54dfdfca-0a8b-4713-a118-9f5901765997",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447932735,
+    "details": "User logged out"
+  },
+  {
+    "id": "57f8525f-6540-4d2f-a2cd-b153674060cc",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447944273,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "276ff859-e2fa-4b1f-8a75-be8b609e3aac",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447952314,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6d66d7d1-6c1d-4117-9def-31faeb0e2d7f",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784447966095,
+    "details": "Full database backup exported: 0 products, 0 customers, 0 quotations, 0 leads"
+  },
+  {
+    "id": "6281e320-b8b2-4ec4-84aa-b02992dbb28c",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1784447966146,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "ab4f8804-f590-423b-b82f-7a9ec11bf4ea",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1784447966482,
+    "details": "Updated setting: company_profile"
+  },
+  {
+    "id": "45f1a5f1-a7fe-4015-b868-83c2c9139e75",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784448128045,
+    "details": "Full database backup exported: 0 products, 0 customers, 0 quotations, 0 leads"
+  },
+  {
+    "id": "d54c6287-47f5-4cbc-a440-97ef76a32e89",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1784448168291,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "fbbc659f-8123-40fd-8e6c-59acf8de34d3",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784458371089,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "51a84d2d-5b7d-430b-a780-3df57796ee30",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784458465948,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c4126ad1-6fd4-4557-9926-c086ad360830",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784555558158,
+    "details": "User logged out"
+  },
+  {
+    "id": "08e23893-4b66-4d05-880d-43b5d9336075",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784555658329,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6719bf91-643e-435f-bb78-f43dfaa943ca",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784555828224,
+    "details": "Full database backup exported: 0 products, 1 customers, 0 quotations, 1 leads"
+  },
+  {
+    "id": "1f111da4-416a-4d00-9623-e6b3227f4a73",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "testclient",
+    "timestamp": 1784655357837,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "743ffcb6-b3f3-4da1-b58c-2997912e4c26",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "testclient",
+    "timestamp": 1784655360306,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "7eb848f5-62ac-49d3-bc64-0de3c1d663b4",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "testclient",
+    "timestamp": 1784655369499,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "f795fae5-f675-41ec-bdea-f19521085b78",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655414803,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "60b2e681-9592-40bc-8c0f-6ab96589128c",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655419707,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "58cfc38c-63f0-4d81-998a-5ea9868eacf7",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655424930,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "815fadf1-7ab1-4e87-9d05-d490c3ba9699",
+    "user_id": "unknown",
+    "username": "raj",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655430468,
+    "details": "Failed login attempt for username: raj"
+  },
+  {
+    "id": "61315ab1-4731-444f-8fe2-c20393e82699",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "testclient",
+    "timestamp": 1784655500407,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "2484b598-9b20-48e0-b8e8-01892e2169f0",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "testclient",
+    "timestamp": 1784655502443,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "660ed41b-ce0c-45ba-bc2a-a6031a212350",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "testclient",
+    "timestamp": 1784655505550,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "bf1429da-40ab-4a70-9f47-5c4d3d4bff48",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655538666,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "53d05aaf-9496-43a0-8af7-bfdcb8df18e0",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655543211,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "da442889-6f0f-4e62-842f-6116df41f657",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655547491,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "0ac69c3e-6b31-451e-a9e3-0067909af73b",
+    "user_id": "unknown",
+    "username": "raj",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655551547,
+    "details": "Failed login attempt for username: raj"
+  },
+  {
+    "id": "0ad7a976-3555-4355-8757-14296a614c29",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655754981,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "478b0442-db42-4073-9cf1-5b4d97afcdd3",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655766487,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "f2f227dd-8f7e-4b64-a217-8a8fd9e2ece9",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655775816,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "74a9e62d-f37e-4fb9-bef5-0283b16d6cf9",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655836817,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c3fdd23f-f0d6-4bb0-a859-d855e9a0e9ba",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655952408,
+    "details": "User logged out"
+  },
+  {
+    "id": "6da04c70-cdfb-47d6-b798-4f8bfc15ee2f",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655952885,
+    "details": "User logged out"
+  },
+  {
+    "id": "7b44d7c8-5761-4a32-b1c1-c81209ec73c4",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784655960002,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "77996d7f-25e4-437d-96d4-87fed56ecf2c",
+    "user_id": "unknown",
+    "username": "admin@retailfix.comadmin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784656420667,
+    "details": "Failed login attempt for username: admin@retailfix.comadmin"
+  },
+  {
+    "id": "6a1496e9-86e8-4c30-8b2b-56fcf9d109c5",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784656555997,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "b9b54533-b08b-4896-9bbc-25449b8be0ef",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784656613219,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "72b9b91a-b43c-48de-aa7d-1b321fde1e50",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784656666839,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "f8109e48-7b00-47ab-97f8-15829c7bef73",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784661952688,
+    "details": "Full database backup exported: 1 products, 4 customers, 9 quotations, 1 leads"
+  },
+  {
+    "id": "bf8cc81e-897a-4872-b602-6503dc0743f3",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784719179453,
+    "details": "User logged out"
+  },
+  {
+    "id": "07cfa84e-6e56-40e6-86e4-635281a11cae",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory@retailfix.com",
+    "role": "factory",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784719225851,
+    "details": "Failed login attempt for username: factory@retailfix.com"
+  },
+  {
+    "id": "a004a9c3-7084-47c6-9cc5-ca47a7339bf8",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784719679458,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "9b6c21ba-cf8b-40ba-bb42-cc166855317e",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory@retailfix.com",
+    "role": "factory",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784719841352,
+    "details": "Failed login attempt for username: factory@retailfix.com"
+  },
+  {
+    "id": "1e44730f-5804-4a0b-82c4-a69c9e820c31",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784719907572,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "54afbe11-1d4a-4f2f-b56c-57699d1ab689",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory@retailfix.com",
+    "role": "factory",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784719945246,
+    "details": "Failed login attempt for username: factory@retailfix.com"
+  },
+  {
+    "id": "426c842e-554a-4b4c-91f0-13dd269d00c9",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784720295789,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "0517ba9c-f60e-40b9-a92a-5efdb210a139",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784745121709,
+    "details": "User logged out"
+  },
+  {
+    "id": "67a33b90-1483-410e-9111-c1836114c522",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784745147070,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "24b05971-fdd8-45b4-b19d-6d457c0a3a57",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784745208116,
+    "details": "Full database backup exported: 1 products, 5 customers, 15 quotations, 1 leads"
+  },
+  {
+    "id": "34121fe0-5f2a-41dd-a43d-1371c08bb5ea",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784746099704,
+    "details": "Full database backup exported: 1 products, 5 customers, 15 quotations, 1 leads"
+  },
+  {
+    "id": "4299bd65-4f74-47f1-9c4c-035c021b4798",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1784746120212,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "42c44361-b387-4767-963a-1e8166d0ae82",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1784746122249,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "5fa39ae2-aa4b-4240-8644-eb87ec64c2a9",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784746792371,
+    "details": "Full database backup exported: 1 products, 5 customers, 15 quotations, 1 leads"
+  },
+  {
+    "id": "55c08c01-4e69-49fc-85ee-b224a05b0db6",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784746846081,
+    "details": "Full database backup exported: 1 products, 5 customers, 15 quotations, 1 leads"
+  },
+  {
+    "id": "61d0341a-f881-4a80-8274-bbcae1cd5234",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784746863971,
+    "details": "Full database backup exported: 1 products, 5 customers, 15 quotations, 1 leads"
+  },
+  {
+    "id": "75d0a645-02c1-4f40-ae7b-749207388399",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784746953279,
+    "details": "Full database backup exported: 1 products, 5 customers, 15 quotations, 1 leads"
+  },
+  {
+    "id": "79fc5b17-8484-4008-a180-12ecd7368963",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784748759060,
+    "details": "Full database backup exported: 1 products, 6 customers, 16 quotations, 1 leads"
+  },
+  {
+    "id": "6806644d-4a6f-4752-920f-cc8005acc336",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784748840134,
+    "details": "Full database backup exported: 1 products, 6 customers, 16 quotations, 1 leads"
+  },
+  {
+    "id": "8a0e3b5b-f060-471a-8d47-ba4cb2eeff56",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "192.168.0.102",
+    "timestamp": 1784787557667,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c40618cb-d399-49c8-b0ba-20cdf4a263f6",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784787875699,
+    "details": "User logged out"
+  },
+  {
+    "id": "5320bb0d-5d7b-4b9f-b37e-146a0eb5c455",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784787883766,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "920c360e-1831-40b3-85cc-e6533908c60d",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784789243347,
+    "details": "Full database backup exported: 1 products, 6 customers, 16 quotations, 1 leads"
+  },
+  {
+    "id": "c5b6913b-7090-476f-9a3e-23843375fa82",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784789435766,
+    "details": "User logged out"
+  },
+  {
+    "id": "67233223-5988-4955-affc-610cb64b3b51",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784789511239,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c97caaf6-497a-4bbe-bbde-a12c6201413a",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784789592127,
+    "details": "User logged out"
+  },
+  {
+    "id": "720af323-d3dc-47be-b1d9-82cff812ba65",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "jayyede43@gmail.com",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784789624026,
+    "details": "Failed login attempt for username: jayyede43@gmail.com"
+  },
+  {
+    "id": "25976a6c-6c8d-4082-b6c8-224435ba9087",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "jayyede43@gmail.com",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784789669210,
+    "details": "Failed login attempt for username: jayyede43@gmail.com"
+  },
+  {
+    "id": "1815fec0-2bfc-4a11-905a-8289d324044c",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "jayyede43@gmail.com",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784789675329,
+    "details": "Failed login attempt for username: jayyede43@gmail.com"
+  },
+  {
+    "id": "d21958d9-5462-4e30-92e5-c4816534042d",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "jayyede43@gmail.com",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790020800,
+    "details": "Failed login attempt for username: jayyede43@gmail.com"
+  },
+  {
+    "id": "96bc1938-9c78-4569-a8f1-f5ebc789bfa6",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Account Locked",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790024628,
+    "details": "Account locked automatically due to 5 failed login attempts in 15 minutes"
+  },
+  {
+    "id": "bcd10f84-ccee-44ba-b4d4-7e48cbbd6831",
+    "user_id": "ea2b1cc9-231a-4134-8cfa-30f1a0b4b216",
+    "username": "jayyede43@gmail.com",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790024628,
+    "details": "Failed login attempt for username: jayyede43@gmail.com"
+  },
+  {
+    "id": "4cec934c-2f6e-4962-b7e7-ce3d47dd21be",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790040921,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6d069620-5492-4ecc-89a9-d81417ae03c8",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790105659,
+    "details": "User logged out"
+  },
+  {
+    "id": "d32a96fa-efcd-4903-8195-07a2e0458e05",
+    "user_id": "b8a6b7e7-b00e-4ddc-840d-d6181246103d",
+    "username": "jayyede43@gmail.com",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790125894,
+    "details": "Failed login attempt for username: jayyede43@gmail.com"
+  },
+  {
+    "id": "e4c21b21-8379-4194-975c-e94ee6ba8bea",
+    "user_id": "b8a6b7e7-b00e-4ddc-840d-d6181246103d",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790131477,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "a1db8a0a-27ae-4c6e-a917-c920fd22a9d5",
+    "user_id": "b8a6b7e7-b00e-4ddc-840d-d6181246103d",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790207138,
+    "details": "User logged out"
+  },
+  {
+    "id": "8f994532-d39a-4ca6-af50-9b2d3e9edd95",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790218389,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "141894d0-065e-425f-9393-28f51a649951",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790511060,
+    "details": "User logged out"
+  },
+  {
+    "id": "1580da95-1661-49ad-bfd5-6403021c5b6f",
+    "user_id": "e74192f0-1843-43d7-854d-b49205938255",
+    "username": "ronak",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790545760,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "8f20fe7f-fbb2-44b1-a3b4-6b3dfd991fc1",
+    "user_id": "e74192f0-1843-43d7-854d-b49205938255",
+    "username": "ronak",
+    "role": "factory",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790707326,
+    "details": "User logged out"
+  },
+  {
+    "id": "816aaffa-f88a-4993-90ad-0554c161d475",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790722300,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "7f3a7ee0-8615-44ed-a465-5b5344b57892",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784790445322,
+    "details": "Full database backup exported: 1 products, 6 customers, 16 quotations, 1 leads"
+  },
+  {
+    "id": "90771ade-ed38-480c-b068-9cff4e5242f8",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "192.168.0.102",
+    "timestamp": 1784790626362,
+    "details": "User logged out"
+  },
+  {
+    "id": "7b2b28cc-b879-49d5-ad9b-bd1432e92c50",
+    "user_id": "e74192f0-1843-43d7-854d-b49205938255",
+    "username": "ronak",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "192.168.0.102",
+    "timestamp": 1784790660701,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c235b68f-7d36-4659-900c-8f57f39e0864",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784791321810,
+    "details": "User logged out"
+  },
+  {
+    "id": "40a74677-c3a7-4bcb-96d2-3444b0bee412",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "testclient",
+    "timestamp": 1784793826677,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c388c405-8ed5-4711-90d7-addafe20a311",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "testclient",
+    "timestamp": 1784793829523,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "6b067b12-4efe-4971-adce-1e93532a5c2a",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "testclient",
+    "timestamp": 1784793832730,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "41803cb3-7cb8-4f07-b4e6-62d765fa1386",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784793850181,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "5436d5fd-d35d-49fa-b169-4f8a029a5739",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784793854195,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6d2f35f7-ee30-4153-b319-04be015eba81",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784794240165,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "48d29edc-27c8-4ea7-b974-93ae93263662",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784794251675,
+    "details": "Full database backup exported: 1 products, 7 customers, 17 quotations, 1 leads"
+  },
+  {
+    "id": "3b03a464-7460-4764-a624-290610d8da6d",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1784794267603,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "7ab412ba-3568-490d-b0c2-ef31881c3016",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784794464620,
+    "details": "Full database backup exported: 1 products, 8 customers, 18 quotations, 1 leads"
+  },
+  {
+    "id": "328e7330-939f-4e9d-847c-67b8375ba42f",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1784794516093,
+    "details": "Full database backup exported: 1 products, 8 customers, 18 quotations, 1 leads"
+  },
+  {
+    "id": "821aafd5-8592-47ca-a0f4-8aa6cf1b3fc1",
+    "user_id": "test-admin-id",
+    "username": "admin@retailfix.com",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786774109911,
+    "details": "Failed login attempt for username: admin@retailfix.com"
+  },
+  {
+    "id": "eb64fe2a-7fa9-4a34-bba3-63c3d75065c1",
+    "user_id": "test-admin-id",
+    "username": "admin@retailfix.com",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786774114105,
+    "details": "Failed login attempt for username: admin@retailfix.com"
+  },
+  {
+    "id": "55513f22-4acc-4111-bbe8-b587c4e87f05",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786774296538,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "bbe3033c-62f6-46d2-84f6-6d0a0c17dcc4",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786774737402,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "2b662c52-7118-43b9-8194-8820238b3368",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786775337169,
+    "details": "Full database backup exported: 1 products, 0 customers, 0 quotations, 1 leads"
+  },
+  {
+    "id": "ec7c72ff-f1a3-45f5-a5f3-8cc21e7a9f7a",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786775360330,
+    "details": "Updated setting: company_profile"
+  },
+  {
+    "id": "a35caf67-c095-49fe-b1f2-2506789f61c4",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786775362543,
+    "details": "Updated setting: company_profile"
+  },
+  {
+    "id": "06db60ac-eb99-46d8-b122-cd5b045c598c",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786775366679,
+    "details": "Updated setting: company_profile"
+  },
+  {
+    "id": "051f67df-4d8e-4cc8-b271-0ad00c40d5a1",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786775383780,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "4c1fc96a-3785-42d3-afe4-8c2efd1cffca",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786775955890,
+    "details": "Full database backup exported: 1 products, 1 customers, 2 quotations, 1 leads"
+  },
+  {
+    "id": "43032c56-d65b-4384-a3d8-00dcd5791861",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786776456423,
+    "details": "Full database backup exported: 1 products, 1 customers, 3 quotations, 1 leads"
+  },
+  {
+    "id": "0ef29973-a4dd-42fc-ae37-9e3388909f6a",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786776471475,
+    "details": "Updated setting: company_profile"
+  },
+  {
+    "id": "e05087c7-b6a3-4a5c-90da-e9bcdb9ad3fe",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786776472908,
+    "details": "Updated setting: company_profile"
+  },
+  {
+    "id": "fa7ab2dc-de65-44ca-85b6-93e7841b9d97",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786776489771,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "90fa8d0e-1cce-4f63-ab09-0cd22002fcde",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786776548496,
+    "details": "Full database backup exported: 1 products, 1 customers, 4 quotations, 1 leads"
+  },
+  {
+    "id": "383922b5-6cbe-43c3-8f11-2dd886ad902e",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786776562099,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "914f1eed-5990-4fb9-8fad-9a4d914b0497",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786776569582,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "d7af3f90-315b-4ae0-91ff-998f616f0606",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786777091388,
+    "details": "Full database backup exported: 1 products, 3 customers, 6 quotations, 1 leads"
+  },
+  {
+    "id": "1c199457-b15e-4367-bb7b-d348fd4841eb",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786777102655,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "2ceecc01-0a91-4a99-a1cc-1efa0566075f",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786777108404,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "aa547cd4-bc1b-4fa9-8d2a-586f9d039a4e",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786777118372,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "3c75329d-2799-4f2d-9f1e-96b675d300de",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786784198141,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "7d2c1cc3-50c4-4c94-9ef4-7867b0bcb15a",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786784792263,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "887a123f-08f4-40f4-8b51-f42bb1380599",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786785063340,
+    "details": "Full database backup exported: 1 products, 3 customers, 4 quotations, 1 leads"
+  },
+  {
+    "id": "6adb1467-ff1f-4c32-98fc-7759cbd69106",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786785073426,
+    "details": "Updated setting: company_profile"
+  },
+  {
+    "id": "6c6ef152-113c-4ca6-975e-7fddf25f6c62",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786870090310,
+    "details": "Full database backup exported: 1 products, 3 customers, 7 quotations, 1 leads"
+  },
+  {
+    "id": "d0fab823-084f-43d4-92b1-6589f3a592b4",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786870181749,
+    "details": "Updated setting: company_profile"
+  },
+  {
+    "id": "f65e1698-d4b3-4bb2-9e0c-52695abf9c07",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786870376821,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "50bd2bf6-38c4-448e-86af-98461e347c93",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786870376883,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "78d63194-e760-44e4-8032-c9c10d6bddb2",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786870400883,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "8ec5a18a-c655-40f1-b6cb-eeaf03c70602",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786870841347,
+    "details": "Full database backup exported: 10 products, 3 customers, 7 quotations, 1 leads"
+  },
+  {
+    "id": "ca9dec7c-2087-4014-a521-75c38ca26f55",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786871566046,
+    "details": "Full database backup exported: 11 products, 3 customers, 7 quotations, 1 leads"
+  },
+  {
+    "id": "ffac0b3a-3469-4883-adc1-b157022e2c0c",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995786132,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "1b047686-7f05-4c55-a94a-990210899093",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786872465899,
+    "details": "Full database backup exported: 11 products, 4 customers, 8 quotations, 1 leads"
+  },
+  {
+    "id": "f02f7bff-5a3f-42f4-9afa-231876629454",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Settings Changed",
+    "ip_address": "",
+    "timestamp": 1786872471105,
+    "details": "Updated setting: doc_settings"
+  },
+  {
+    "id": "025bd932-8368-425e-8d8e-cac6e4ac845f",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786874261382,
+    "details": "Full database backup exported: 10 products, 4 customers, 8 quotations, 1 leads"
+  },
+  {
+    "id": "bb101745-e548-42fd-832d-ff15ba3d04bd",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786873280825,
+    "details": "Full database backup exported: 11 products, 4 customers, 9 quotations, 1 leads"
+  },
+  {
+    "id": "55e19630-ec76-4ff5-a7d8-d228ba539769",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786873380139,
+    "details": "Full database backup exported: 11 products, 4 customers, 9 quotations, 1 leads"
+  },
+  {
+    "id": "32e35950-7cf7-4c6c-9d51-f6a68e204c71",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1786873938216,
+    "details": "Full database backup exported: 10 products, 4 customers, 8 quotations, 1 leads"
+  },
+  {
+    "id": "a1ad5210-5082-40d9-a6de-96aef49da8c6",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787041069316,
+    "details": "Full database backup exported: 10 products, 1 customers, 1 quotations, 1 leads"
+  },
+  {
+    "id": "33428dea-1504-4ba6-b356-bd979ba4c2c8",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Database Backup",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787041712292,
+    "details": "Full database backup exported: 10 products, 1 customers, 1 quotations, 1 leads"
+  },
+  {
+    "id": "3cdc0f50-9458-4802-9078-e84b57d115fd",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787654908253,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "38f36c16-8246-4954-b500-cdeea0d37763",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787992395664,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "bf851e1d-583b-43ed-bfdf-8e557a51fa30",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787992409163,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "907f3d07-58c7-41bf-972c-38089827b8e0",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787992608748,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "ad371875-017c-47f7-bbe4-97493570d670",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787992653591,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "b0daf25f-7c4a-497f-9ea1-0e35d329116e",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787992671193,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6de87330-3550-45c6-a8f4-9ffd7cd793fe",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787992699280,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "d6243465-52f0-4f4b-876e-e3aa64e57149",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787992711580,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "a7c5db7b-882c-4c9c-8797-ab8d45c769e1",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787992800144,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "feaadecc-0c29-4421-826e-ebe7c1da5bb9",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993005159,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "97684e22-c027-404e-82e0-f5e324b9c6da",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Password Change",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993010762,
+    "details": "User successfully changed password"
+  },
+  {
+    "id": "089659d9-b937-4145-a944-214171c363ba",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993054710,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "a0d109b6-f929-4f33-b81d-3161c54107fc",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Password Change",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993058089,
+    "details": "User successfully changed password"
+  },
+  {
+    "id": "3f28928c-d53a-4cc5-a8a6-8d15a31f1171",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993061261,
+    "details": "User logged out"
+  },
+  {
+    "id": "1b4b1f33-c690-47be-9684-4131e9b990c7",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993289718,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "46a3d9c9-232b-470c-8f68-189e64b7bb4b",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993293856,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "15941801-4a1e-44b1-8b40-44a351b1b679",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993300982,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "47aff9f2-3456-4f33-9b22-cb6618080912",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993309174,
+    "details": "Failed login attempt for username: admin"
+  },
+  {
+    "id": "9df28ee8-905e-40bf-93f9-01d5dcf7334c",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787993642073,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "ab6a3da8-ae2d-4631-952e-c39a6be2d2c9",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994220733,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "8074e761-e0bb-45c1-8136-976c6a933054",
+    "user_id": "b8a6b7e7-b00e-4ddc-840d-d6181246103d",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994224400,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "4067e116-f196-4d58-8dee-61cfa5fd396f",
+    "user_id": "unknown",
+    "username": "raj",
+    "role": "telecaller",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994228606,
+    "details": "Failed login attempt for username: raj"
+  },
+  {
+    "id": "bf0f2000-d94d-43b8-9f3b-fcc1c84db3f6",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994269071,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "04e0cb10-e3bf-4363-a92c-f8738af21c78",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994272347,
+    "details": "User logged out"
+  },
+  {
+    "id": "5040fb09-1caf-4f81-8977-6b80977d39c9",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994274190,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "0126b0ef-798b-4531-a60b-048053b4bd52",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994276731,
+    "details": "User logged out"
+  },
+  {
+    "id": "bc84c241-80cb-4d79-ae83-2c4bdfe8851a",
+    "user_id": "e74192f0-1843-43d7-854d-b49205938255",
+    "username": "ronak",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994277821,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "35ffe781-d245-45c3-8137-21808718fb18",
+    "user_id": "e74192f0-1843-43d7-854d-b49205938255",
+    "username": "ronak",
+    "role": "factory",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994280029,
+    "details": "User logged out"
+  },
+  {
+    "id": "40e7cc99-f44c-4c68-b293-b98063668b92",
+    "user_id": "b8a6b7e7-b00e-4ddc-840d-d6181246103d",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994281376,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "e79dce05-598a-4589-bcbc-b30ad88672be",
+    "user_id": "b8a6b7e7-b00e-4ddc-840d-d6181246103d",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994284635,
+    "details": "User logged out"
+  },
+  {
+    "id": "9e3f28a3-23a4-40c7-9877-08d7e7887d4f",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994550056,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "647509d3-2c43-42f7-8bcd-ce5f61661e04",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994552514,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "d51372b2-2cbb-450a-b2d6-bab8df2ce84a",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jayyede93@gmail.com",
+    "role": "salesman",
+    "action": "Failed Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994555073,
+    "details": "Failed login attempt for username: jayyede93@gmail.com"
+  },
+  {
+    "id": "b7c724d1-b28c-4b97-8c5e-a0c2b23de7d8",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994557288,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "fb9d0345-3ad6-4c2f-b1eb-041c78fe795b",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994559871,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "45dc1757-3444-4b81-aba4-029a1cc954c3",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994569003,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "efe70ba2-db7d-4fcb-b277-8f9a7d5ee3ec",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994620260,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "2a1ed738-3886-4c57-8fad-ae1f2a52c054",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994622043,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "1d0dbf13-f74a-4d39-9c1e-e1e26496cd44",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994624372,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "77da2266-b4f8-4e8a-885a-603e1864c773",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994626800,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "8f56bf4b-1249-44e3-9948-955b8b7b3e48",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994628537,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6271d793-29bc-4b80-bf94-290293814e09",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994637242,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "1697351d-6429-4b06-b34d-5a5e236d82b0",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994650103,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "0c1147b4-0f99-4f28-8ffd-f092975616ae",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994651726,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "3f786754-deb7-460e-ac4c-4dfc7c6ecb97",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994653099,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "ca6e46a1-f133-453d-a960-c84331ef2af5",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994655501,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "e70ff18b-bb96-4cbf-8c7b-56a39d4e11fb",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994689031,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6a9a5909-9264-4d30-a543-99fe21bce189",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994690618,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "ab76374e-0e54-4bfe-9ac7-13a6c5bdd350",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994692701,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "70cb0c7d-9f08-4c15-a72e-815e3f7e1df2",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994694632,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "4f3d9faa-7e8c-47d4-a4a1-701c9e5087fb",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994697206,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "e9df9b31-6551-4d91-8acc-33e3fcdba527",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994708871,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "81898bee-ad1a-4c06-bf6d-1189605b94fb",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994710658,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "a615ebaf-f718-48a7-ada8-0da1056e5e7f",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994711935,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "fdaf411c-df76-41b4-81eb-3ccd055fdf7a",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994714287,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "578352ee-82de-4cbc-b3eb-3c9b1a88c5ff",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994716089,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "dfcf09eb-fdba-4dda-b344-1e42ea9ffa39",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994717480,
+    "details": "User logged out"
+  },
+  {
+    "id": "2430444f-06cf-48ab-8931-a1af246b352f",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994756963,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "d4eead27-bccd-4b1f-ab19-c4e4d647b670",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994759054,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "92c2c568-def8-4da4-905b-be7dfb5380be",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994760635,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "4d560397-e60c-4cd0-9f77-77de28de6f2d",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994762653,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c40f5586-c8be-42d3-a860-ce0c8ac8a201",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994764891,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "87be0842-fd77-4e95-a59b-0dd6a7043062",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994777257,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "199f0b93-a914-4544-9116-0ad85014d033",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994780461,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "bcee3002-4c53-4104-8091-ec4e45b0f246",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994780650,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "13ad53fc-d013-4369-8ea8-2252b3ad4bf7",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994782358,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "d1400448-6ef0-432d-ad72-3e15640544ce",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994782709,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "1d5f8052-4f6c-421a-abf2-5e519d63963c",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994784859,
+    "details": "User logged out"
+  },
+  {
+    "id": "b735e822-47d5-447f-947d-ccb01f4de93e",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994858484,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "87a4ca68-9ba3-4ad2-9c70-58c6e741b2ae",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994861650,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "06a95f67-6c0a-407f-9042-7a7877b06bf3",
+    "user_id": "0dfa9f9c-ad4b-46c7-9497-13b8fbbb59d2",
+    "username": "jay_yede",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994864116,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "734ad063-9ee1-4973-9222-b8969be26991",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994951833,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "db33c71d-c007-456d-9e68-1146bfae97b8",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994954709,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "b9f586b5-e67b-4ece-8037-434bae79a63d",
+    "user_id": "b8a6b7e7-b00e-4ddc-840d-d6181246103d",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994957812,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6b685e24-24cb-4244-a50b-71a0e8d5071f",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994960662,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "918e0350-f136-4757-9908-1b150bd7e9cc",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994962561,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "a8f59b9e-8e74-47f8-ab11-ff766fdad458",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994973684,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "d7753838-6ef5-403a-a514-ec401266207a",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994976287,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "d406103e-f72b-41d5-a778-ecf3ece399f8",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994977577,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "7a375179-ad84-4dd1-9bb2-ff382c7e27af",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994979726,
+    "details": "User logged out"
+  },
+  {
+    "id": "6d5ebe44-74ff-4384-b1e9-09cafbcc3f2a",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994980651,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "273ac96b-7d49-4719-942c-8299cfc5948e",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787994984130,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "9287ad3a-9f18-4e21-9317-967d6a2cce70",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995019242,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "0106bb11-5512-423c-a9fc-3119e93cec56",
+    "user_id": "9efdde3e-d79f-4267-a707-3f6743474531",
+    "username": "factory",
+    "role": "factory",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995022427,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c53f0b00-b2d8-4aa2-aea3-5da147d52a96",
+    "user_id": "b8a6b7e7-b00e-4ddc-840d-d6181246103d",
+    "username": "lokesh_yede",
+    "role": "telecaller",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995024732,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "c7c59ed4-fd3d-4af2-96fc-824715e49142",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995027956,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "f6063364-f6ae-4dda-ae08-000fad465d81",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995031042,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "d61c649e-e945-4dab-806b-ebd98912cdea",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995043912,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "2ca85cbb-5f2e-455e-a3ba-7e0f82415887",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995047208,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "db6b33ae-a3e6-433d-8765-98fa35da2c98",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995049121,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6bffcfc0-b3af-42f8-b56a-eed219e70c54",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995050522,
+    "details": "User logged out"
+  },
+  {
+    "id": "994ae933-3435-4ea9-bc1d-39772a3ace0d",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995052020,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "6e859eba-4b1c-4461-8eb2-118a8920c6d9",
+    "user_id": "test-salesman-id",
+    "username": "test_salesman",
+    "role": "salesman",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995055097,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "dad17887-e23c-4311-9242-f4ee7b4547b8",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Login",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995057551,
+    "details": "Successful authentication"
+  },
+  {
+    "id": "162f5ce3-7284-45a8-a2b4-06b6382a72ef",
+    "user_id": "test-admin-id",
+    "username": "admin",
+    "role": "admin",
+    "action": "Logout",
+    "ip_address": "127.0.0.1",
+    "timestamp": 1787995059322,
+    "details": "User logged out"
+  }
+]

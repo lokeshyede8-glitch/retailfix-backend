@@ -1,0 +1,12 @@
+[
+  {
+    "id": "62faba84-4f7c-4c25-8c56-c30a8b6556da",
+    "bank_name": "HDFC Bank",
+    "account_holder": "RetailFix",
+    "account_number": "50200012345678",
+    "ifsc_code": "HDFC0001234",
+    "branch": "Govindpura, Bhopal",
+    "display_order": 1,
+    "is_enabled": true
+  }
+]

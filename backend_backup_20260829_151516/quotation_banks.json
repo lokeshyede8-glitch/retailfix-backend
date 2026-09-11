@@ -1,0 +1,12 @@
+[
+  {
+    "id": "f7a0b0bb-c34d-4579-b7ef-77741037331a",
+    "bank_name": "ICICI BANK",
+    "account_holder": " HESTECH INDUSTRIES PRIVATE LIMITED ",
+    "account_number": "327805500140",
+    "ifsc_code": "ICIC0003278",
+    "branch": "Govindpura, Bhopal",
+    "display_order": 1,
+    "is_enabled": true
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "key": "default_terms",
+    "value": "[\"Prices are factory rates \\u2014 no middlemen, no hidden costs.\", \"50% advance payment required to confirm order; balance before/at delivery.\", \"Delivery: 7\\u201315 working days from order confirmation, depending on quantity & customization.\", \"GST as applicable will be charged extra unless already included above.\", \"Installation support available on request.\", \"Quotation valid for 15 days from the date of issue.\"]"
+  },
+  {
+    "key": "doc_settings",
+    "value": "{\"validityDays\":7,\"footerNote\":\"\",\"advancePercent\":50,\"fullPaymentDiscount\":5,\"page2_enabled\":true,\"page3_enabled\":true,\"payment_qr\":\"\",\"auth_image\":\"/uploads/e573bc1208a74fd181d263181448d6b5.png\",\"company_seal\":\"/uploads/f64a31640d6a4c7bb343c524ea518a38.png\",\"auth_signature\":\"/uploads/dd608af840ee4676b0941c48edcc5595.png\"}"
+  },
+  {
+    "key": "company_profile",
+    "value": "{\"name\":\"RetailFix\",\"tagline\":\"Store Fixtures & Display Solutions\",\"address\":\"Plot No. 63, Govindpura Industrial Area, Bhopal, Madhya Pradesh, 462023, India\",\"phone\":\"+91-92019 58481, 92019 58486\",\"email\":\"info@retailfix.in\",\"web\":\"http://retailfix.in\",\"gstin\":\"23AAECH7532B1Z2\",\"logo_url\":\"/uploads/1fe114485bb44a31b025457b1785aaf2.png\",\"bankName\":\"HDFC Bank\",\"accountHolder\":\"RetailFix\",\"accountNumber\":\"50200012345678\",\"ifscCode\":\"HDFC0001234\",\"branch\":\"Govindpura, Bhopal\"}"
+  }
+]

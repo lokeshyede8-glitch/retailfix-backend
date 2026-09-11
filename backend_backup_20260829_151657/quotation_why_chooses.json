@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3a9724a0-5ba6-4bf4-90a4-e19442c7d30d",
+    "text": "Premium Quality",
+    "display_order": 1,
+    "is_enabled": true
+  },
+  {
+    "id": "b86428e0-4ca3-4bbe-b244-14e4283c3a5c",
+    "text": "Professional Team",
+    "display_order": 2,
+    "is_enabled": true
+  },
+  {
+    "id": "dc7858a3-9f85-4513-8c63-ff2bb3480353",
+    "text": "Fast Installation",
+    "display_order": 3,
+    "is_enabled": true
+  },
+  {
+    "id": "2fe243a9-e8a0-459c-9be6-71f60dc566fe",
+    "text": "Affordable Pricing",
+    "display_order": 4,
+    "is_enabled": true
+  },
+  {
+    "id": "c7e01b51-e296-4ab6-a32c-abb653f4c5b3",
+    "text": "PAN India Support",
+    "display_order": 5,
+    "is_enabled": true
+  },
+  {
+    "id": "4801dcf2-3e72-4a72-a8fd-260502f638fe",
+    "text": "Modern Store Design",
+    "display_order": 6,
+    "is_enabled": true
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "486dc09c-07f6-4655-932c-a19a32fbb05b",
+    "name": "Ajay Verma Ji",
+    "phone": "9009316014",
+    "email": "",
+    "city": "",
+    "address": "",
+    "gstin": "",
+    "created_at": 1786871716095,
+    "store_images_json": "[]",
+    "store_videos_json": "[]",
+    "store_width": null,
+    "store_length": null,
+    "store_height": null,
+    "store_area": null
+  },
+  {
+    "id": "3ee0a8d8-f0cc-4ef3-b167-36622dd6f4ad",
+    "name": "vinay shakya",
+    "phone": "7723081245",
+    "email": "",
+    "city": "",
+    "address": "",
+    "gstin": "",
+    "created_at": 1787655410818,
+    "store_images_json": "[]",
+    "store_videos_json": "[]",
+    "store_width": null,
+    "store_length": null,
+    "store_height": null,
+    "store_area": null
+  }
+]

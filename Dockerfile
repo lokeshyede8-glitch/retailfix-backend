@@ -62,4 +62,5 @@ EXPOSE 8001
 HEALTHCHECK --interval=30s --timeout=10s --start-period=15s --retries=3 \
     CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')" || exit 1
 
-CMD ["sh", "-c", "alembic upgrade head && exec gunicorn main:app -k uvicorn.workers.UvicornWorker --workers 2 --bind 0.0.0.0:${PORT:-8001} --timeout 120 --graceful-timeout 30 --access-logfile - --error-logfile -"]
+    
+CMD ["sh", "-c", "/app/.venv/bin/alembic upgrade head && exec /app/.venv/bin/gunicorn main:app -k uvicorn.workers.UvicornWorker --workers 2 --bind 0.0.0.0:${PORT:-8001} --timeout 120 --graceful-timeout 30 --access-logfile - --error-logfile -"]

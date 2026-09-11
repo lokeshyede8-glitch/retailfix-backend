@@ -145,9 +145,12 @@ def upload_image(
     if ext not in [".png", ".jpg", ".jpeg", ".svg", ".webp", ".gif"]:
         raise HTTPException(status_code=400, detail="Invalid file type. Only PNG, JPG, JPEG, SVG, WEBP, and GIF are allowed.")
         
-    upload_dir = os.path.abspath("uploads")
+    upload_dir = os.getenv("UPLOAD_DIR", os.path.abspath("uploads"))
     if not os.path.exists(upload_dir):
-        os.makedirs(upload_dir)
+        try:
+            os.makedirs(upload_dir, exist_ok=True)
+        except Exception as e:
+            logger.warning("Could not create upload directory %s: %e", upload_dir, e)
         
     filename = f"{uuid.uuid4().hex}{ext}"
     filepath = os.path.join(upload_dir, filename)
@@ -164,7 +167,7 @@ def delete_uploaded_image(
     filename: str,
     current_user: CurrentUser = Depends(RoleChecker(["admin"]))
 ):
-    upload_dir = os.path.abspath("uploads")
+    upload_dir = os.getenv("UPLOAD_DIR", os.path.abspath("uploads"))
     filepath = os.path.join(upload_dir, filename)
     
     if not os.path.exists(filepath):

@@ -349,10 +349,11 @@ async def login(request: Request, response: Response, db: Session = Depends(get_
     _env = os.environ.get("ENV", os.environ.get("ENVIRONMENT", "production"))
     _debug = os.environ.get("DEBUG", "False")
     is_secure = (_env == "production") and (_debug != "True")
+    samesite_val = "none" if is_secure else "lax"
     
-    response.set_cookie(key="access_token", value=access_token, httponly=True, secure=is_secure, samesite="lax")
-    response.set_cookie(key="refresh_token", value=refresh_token, httponly=True, secure=is_secure, samesite="lax")
-    response.set_cookie(key="csrf_token", value=csrf_token, httponly=False, secure=is_secure, samesite="lax")
+    response.set_cookie(key="access_token", value=access_token, httponly=True, secure=is_secure, samesite=samesite_val)
+    response.set_cookie(key="refresh_token", value=refresh_token, httponly=True, secure=is_secure, samesite=samesite_val)
+    response.set_cookie(key="csrf_token", value=csrf_token, httponly=False, secure=is_secure, samesite=samesite_val)
 
     phone_val = ""
     email_val = ""
@@ -423,10 +424,12 @@ def logout(response: Response, current_user: CurrentUser = Depends(get_current_u
 
     import os
     is_dev = os.getenv("DEBUG", "False") == "True" or os.getenv("ENV", "production") == "development"
+    is_secure = not is_dev
+    samesite_val = "none" if is_secure else "lax"
     
-    response.delete_cookie(key="access_token", httponly=True, secure=not is_dev, samesite="lax")
-    response.delete_cookie(key="refresh_token", httponly=True, secure=not is_dev, samesite="lax")
-    response.delete_cookie(key="csrf_token", httponly=False, secure=not is_dev, samesite="lax")
+    response.delete_cookie(key="access_token", httponly=True, secure=is_secure, samesite=samesite_val)
+    response.delete_cookie(key="refresh_token", httponly=True, secure=is_secure, samesite=samesite_val)
+    response.delete_cookie(key="csrf_token", httponly=False, secure=is_secure, samesite=samesite_val)
 
     return {"status": "success", "message": "Successfully logged out"}
 
@@ -528,11 +531,13 @@ def refresh_token(request: Request, response: Response, payload: Optional[Refres
     
     import os
     is_dev = os.getenv("DEBUG", "False") == "True" or os.getenv("ENV", "production") == "development"
+    is_secure = not is_dev
+    samesite_val = "none" if is_secure else "lax"
     
     csrf_token = secrets.token_urlsafe(32)
-    response.set_cookie(key="access_token", value=new_access_token, httponly=True, secure=not is_dev, samesite="lax")
-    response.set_cookie(key="refresh_token", value=token, httponly=True, secure=not is_dev, samesite="lax")
-    response.set_cookie(key="csrf_token", value=csrf_token, httponly=False, secure=not is_dev, samesite="lax")
+    response.set_cookie(key="access_token", value=new_access_token, httponly=True, secure=is_secure, samesite=samesite_val)
+    response.set_cookie(key="refresh_token", value=token, httponly=True, secure=is_secure, samesite=samesite_val)
+    response.set_cookie(key="csrf_token", value=csrf_token, httponly=False, secure=is_secure, samesite=samesite_val)
 
     return {
         "access_token": new_access_token,

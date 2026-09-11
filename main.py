@@ -346,16 +346,25 @@ class PayloadLimitMiddleware(BaseHTTPMiddleware):
                 )
         return await call_next(request)
 
-# Setup dynamic CORS origins
-allowed_origins_raw = os.getenv("ALLOWED_ORIGINS")
-if not allowed_origins_raw or allowed_origins_raw.strip() == "*" or allowed_origins_raw.strip() == "":
-    allowed_origins = ["http://localhost:5173", "http://localhost:3000"]
-else:
-    allowed_origins = [org.strip() for org in allowed_origins_raw.split(",") if org.strip()]
+# Setup dynamic CORS origins with strict normalization
+DEFAULT_DEV_ORIGINS = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:3000",
+]
 
+def parse_allowed_origins(raw_env: str | None) -> list[str]:
+    origins = set(DEFAULT_DEV_ORIGINS)
+    if raw_env and raw_env.strip() and raw_env.strip() != "*":
+        for item in raw_env.split(","):
+            cleaned = item.strip().strip("'\"").rstrip("/")
+            if cleaned:
+                origins.add(cleaned)
+    return sorted(list(origins))
 
-
-
+allowed_origins = parse_allowed_origins(os.getenv("ALLOWED_ORIGINS"))
+logger.info("Configured CORS allowed origins: %s", allowed_origins)
 
 # IMPORTANT: Starlette processes add_middleware() in REVERSE registration order.
 # CORSMiddleware is added last so it becomes OUTERMOST and wraps ALL responses.
@@ -365,8 +374,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS", "HEAD"],
     allow_headers=["*"],
+    expose_headers=["*"],
+    max_age=600,
 )
 
 
@@ -430,9 +441,12 @@ from fastapi.staticfiles import StaticFiles
 from starlette.responses import Response
 from starlette.routing import Route
 
-upload_dir = os.path.abspath("uploads")
+upload_dir = os.getenv("UPLOAD_DIR", os.path.abspath("uploads"))
 if not os.path.exists(upload_dir):
-    os.makedirs(upload_dir)
+    try:
+        os.makedirs(upload_dir, exist_ok=True)
+    except Exception as e:
+        logger.warning("Could not create upload directory %s: %e", upload_dir, e)
 
 # Fix: Wrap StaticFiles with a custom middleware that adds CORS headers.
 # html2canvas fetches images from http://localhost:8001/uploads/* cross-origin
@@ -445,9 +459,11 @@ class _UploadsCORSMiddleware(_BHM):
         response = await call_next(request)
         if request.url.path.startswith("/uploads/"):
             origin = request.headers.get("origin")
-            # Only echo back the origin if it is in our allowlist, or if no origin, omit the header
-            if origin in allowed_origins:
-                response.headers["Access-Control-Allow-Origin"] = origin
+            if origin:
+                clean_origin = origin.rstrip("/")
+                if clean_origin in allowed_origins:
+                    response.headers["Access-Control-Allow-Origin"] = origin
+                    response.headers["Access-Control-Allow-Credentials"] = "true"
             response.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
             response.headers["Cross-Origin-Resource-Policy"] = "cross-origin"
         return response

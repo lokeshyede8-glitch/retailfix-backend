@@ -1,9 +1,17 @@
+import os
 import psycopg2
 from passlib.context import CryptContext
 import uuid
 import datetime
+from dotenv import load_dotenv
 
-DB = 'postgresql://neondb_owner:npg_CU97ucJFjNHm@ep-noisy-sunset-azhpdfyf-pooler.c-3.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+load_dotenv()
+
+DB = os.getenv("DATABASE_URL")
+if not DB:
+    raise ValueError("DATABASE_URL environment variable is required.")
+if DB.startswith("postgres://"):
+    DB = DB.replace("postgres://", "postgresql://", 1)
 
 conn = psycopg2.connect(DB)
 cur = conn.cursor()

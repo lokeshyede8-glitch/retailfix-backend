@@ -126,9 +126,12 @@ def generate_mock_auth_signature(path: str):
 def seed_database(db: Session):
     """Ensure upload files exist and seed settings into PostgreSQL."""
     # 1. Ensure uploads folder exists
-    upload_dir = os.path.abspath("uploads")
+    upload_dir = os.getenv("UPLOAD_DIR", os.path.abspath("uploads"))
     if not os.path.exists(upload_dir):
-        os.makedirs(upload_dir)
+        try:
+            os.makedirs(upload_dir, exist_ok=True)
+        except Exception as e:
+            print(f"Could not create upload directory {upload_dir}: {e}")
         
     # 2. Generate assets if missing
     logo_path = os.path.join(upload_dir, "logo_retailfix.png")

@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 
 # JWT_SECRET_KEY MUST be provided — application refuses to start without it.
 # Generate a secure key with: python -c "import secrets; print(secrets.token_hex(64))"
-JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY")
+JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY") or os.getenv("SECRET_KEY")
 if not JWT_SECRET_KEY:
     raise RuntimeError(
         "FATAL: JWT_SECRET_KEY environment variable is not set. "

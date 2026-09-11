@@ -30,12 +30,25 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libpq5 \
     && rm -rf /var/lib/apt/lists/*
 
+# Create dedicated non-root user with an explicit home directory
+# (Prevents Debian default /nonexistent home directory permission errors)
 RUN addgroup --system --gid 1001 appgroup && \
-    adduser --system --uid 1001 --ingroup appgroup --no-create-home appuser
+    adduser --system --uid 1001 --ingroup appgroup --home /home/appuser appuser
+
+ENV HOME=/home/appuser \
+    PATH="/app/.venv/bin:$PATH" \
+    PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1
 
 COPY --from=builder /app/.venv /app/.venv
 
+# Copy application source code with proper ownership
 COPY --chown=appuser:appgroup . .
+
+# Ensure /app/uploads and /home/appuser exist, are owned by appuser, and writable
+RUN mkdir -p /app/uploads /home/appuser && \
+    chown -R appuser:appgroup /app/uploads /home/appuser && \
+    chmod -R 775 /app/uploads /home/appuser
 
 RUN rm -f \
     quotation.db \
@@ -53,14 +66,12 @@ RUN rm -f \
     .git \
     pg_data
 
-ENV PATH="/app/.venv/bin:/usr/local/bin:/usr/bin:/bin"
-
 USER appuser
 
 EXPOSE 8001
 
+# Dynamic HEALTHCHECK respecting Railway's PORT environment variable
 HEALTHCHECK --interval=30s --timeout=10s --start-period=15s --retries=3 \
-    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')" || exit 1
+    CMD python -c "import urllib.request, os; p = os.environ.get('PORT', '8001'); urllib.request.urlopen(f'http://127.0.0.1:{p}/health')" || exit 1
 
-    
-CMD ["sh", "-c", "/app/.venv/bin/alembic upgrade head && exec /app/.venv/bin/gunicorn main:app -k uvicorn.workers.UvicornWorker --workers 2 --bind 0.0.0.0:${PORT:-8001} --timeout 120 --graceful-timeout 30 --access-logfile - --error-logfile -"]
+CMD ["sh", "-c", "/app/.venv/bin/alembic upgrade head && exec /app/.venv/bin/gunicorn -c gunicorn.conf.py main:app"]

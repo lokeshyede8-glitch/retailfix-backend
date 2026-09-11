@@ -12,7 +12,7 @@ import multiprocessing
 #   Railway Free Tier (512MB RAM):  2 workers
 #   Railway Starter (1GB RAM):      3 workers
 #   Render Free Tier (512MB RAM):   2 workers
-#   Render Standard (2GB RAM):      4–5 workers
+#   Render Standard (2GB RAM):      4-5 workers
 #   2-core VPS (2GB RAM):           5 workers (2 x 2 + 1)
 workers = int(os.getenv("WEB_CONCURRENCY", min(2 * multiprocessing.cpu_count() + 1, 9)))
 

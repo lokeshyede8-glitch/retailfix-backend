@@ -125,17 +125,33 @@ def get_current_user(
         detail="Could not validate credentials",
         headers={"WWW-Authenticate": "Bearer"},
     )
-    cookie_token = request.cookies.get("access_token")
-    if cookie_token:
-        token = cookie_token
-        if request.method in ["POST", "PUT", "PATCH", "DELETE"]:
-            csrf_token = request.headers.get("X-CSRF-Token")
-            cookie_csrf = request.cookies.get("csrf_token")
-            if not csrf_token or not cookie_csrf or csrf_token != cookie_csrf:
-                raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="CSRF token missing or incorrect")
+    # 1. Bearer token from Authorization header has highest priority
+    # Bearer tokens are immune to CSRF as browsers never attach them automatically.
+    auth_header = request.headers.get("Authorization")
+    if not token and auth_header and auth_header.startswith("Bearer "):
+        token = auth_header.split(" ", 1)[1].strip()
+
+    # 2. Fall back to cookie-based authentication if no Bearer token was supplied
+    if not token:
+        cookie_token = request.cookies.get("access_token")
+        if cookie_token:
+            token = cookie_token
+            # Enforce CSRF protection only when relying on ambient cookie credentials
+            if request.method in ["POST", "PUT", "PATCH", "DELETE"]:
+                csrf_token = request.headers.get("X-CSRF-Token")
+                cookie_csrf = request.cookies.get("csrf_token")
+                if not csrf_token or not cookie_csrf or csrf_token != cookie_csrf:
+                    logger.warning(
+                        "CSRF token validation failed on cookie-only authenticated request: method=%s, path=%s",
+                        request.method, request.url.path
+                    )
+                    raise HTTPException(
+                        status_code=status.HTTP_403_FORBIDDEN,
+                        detail="CSRF token missing or incorrect"
+                    )
     
     if not token:
-        print("DEBUG: NO TOKEN FOUND")
+        logger.debug("No authentication token found in request")
         raise credentials_exception
 
     try:

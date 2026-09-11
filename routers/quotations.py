@@ -292,16 +292,22 @@ def update_quotation_payment_options(quote_id: str, payload: dict, db: Session =
 
 @router.delete("/{quote_id}", status_code=204)
 def delete_quotation(quote_id: str, db: Session = Depends(get_db), current_user: CurrentUser = Depends(RoleChecker(["admin"]))):
-    q = db.query(models.Quotation).filter(models.Quotation.id == quote_id).first()
+    logger.info("Admin '%s' attempting to delete quotation '%s'", current_user.username, quote_id)
+    from sqlalchemy import or_
+    q = db.query(models.Quotation).filter(
+        or_(models.Quotation.id == quote_id, models.Quotation.quote_number == quote_id)
+    ).first()
     if not q:
+        logger.warning("Quotation '%s' not found for deletion by admin '%s'", quote_id, current_user.username)
         raise HTTPException(status_code=404, detail="Quotation not found")
     q_id = q.id
     
     # Logical cascade delete for payments associated with this quotation
-    db.query(models.Payment).filter(models.Payment.quotation_id == quote_id).delete()
+    db.query(models.Payment).filter(models.Payment.quotation_id == q_id).delete()
     
     db.delete(q)
     db.commit()
+    logger.info("Quotation '%s' (ID: %s) successfully deleted by admin '%s'", q.quote_number, q_id, current_user.username)
     
     from websocket_manager import broadcast_event
     broadcast_event("quotation_deleted", {"id": q_id})

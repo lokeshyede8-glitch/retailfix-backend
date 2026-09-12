@@ -51,8 +51,14 @@ build/
 dist/
 *.egg-info/
 
-# Uploads (if local uploads are used)
-uploads/
+# Uploads: keep static image assets in git, ignore temporary scratch files
+uploads/*
+!uploads/*.png
+!uploads/*.jpg
+!uploads/*.jpeg
+!uploads/*.svg
+!uploads/*.webp
+!uploads/.gitkeep
 media/
 temp/
 

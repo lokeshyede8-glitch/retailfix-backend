@@ -347,15 +347,18 @@ class PayloadLimitMiddleware(BaseHTTPMiddleware):
         return await call_next(request)
 
 # Setup dynamic CORS origins with strict normalization
-DEFAULT_DEV_ORIGINS = [
+# Setup dynamic CORS origins with strict normalization
+DEFAULT_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:3000",
     "http://127.0.0.1:5173",
     "http://127.0.0.1:3000",
+    "https://retailfix-crm.vercel.app",
+    "https://retailfix-crm-git-main-jayyede93-7431s-projects.vercel.app",
 ]
 
 def parse_allowed_origins(raw_env: str | None) -> list[str]:
-    origins = set(DEFAULT_DEV_ORIGINS)
+    origins = set(DEFAULT_ALLOWED_ORIGINS)
     if raw_env and raw_env.strip() and raw_env.strip() != "*":
         for item in raw_env.split(","):
             cleaned = item.strip().strip("'\"").rstrip("/")
@@ -373,6 +376,7 @@ app.add_middleware(SecurityHeadersMiddleware)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
+    allow_origin_regex=r"^https://[a-zA-Z0-9\-_.]*\.?vercel\.app$",
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS", "HEAD"],
     allow_headers=["*"],
@@ -453,20 +457,51 @@ if not os.path.exists(upload_dir):
 # (frontend is on :5173). Without Access-Control-Allow-Origin, the browser
 # blocks the fetch and images appear blank in the generated PDF.
 from starlette.middleware.base import BaseHTTPMiddleware as _BHM
+import re
+
+def _is_origin_allowed(origin: str | None) -> bool:
+    if not origin:
+        return False
+    clean = origin.rstrip("/")
+    if clean in allowed_origins:
+        return True
+    if re.match(r"^https://[a-zA-Z0-9\-_.]*\.?vercel\.app$", clean):
+        return True
+    return False
 
 class _UploadsCORSMiddleware(_BHM):
     async def dispatch(self, request: Request, call_next):
-        response = await call_next(request)
         if request.url.path.startswith("/uploads/"):
             origin = request.headers.get("origin")
-            if origin:
-                clean_origin = origin.rstrip("/")
-                if clean_origin in allowed_origins:
-                    response.headers["Access-Control-Allow-Origin"] = origin
-                    response.headers["Access-Control-Allow-Credentials"] = "true"
-            response.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
+            is_allowed = _is_origin_allowed(origin)
+
+            # 1. Intercept preflight OPTIONS directly since StaticFiles returns 405 for OPTIONS
+            if request.method == "OPTIONS":
+                cors_headers = {
+                    "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+                    "Access-Control-Allow-Headers": "*",
+                    "Cross-Origin-Resource-Policy": "cross-origin",
+                }
+                if is_allowed:
+                    cors_headers["Access-Control-Allow-Origin"] = origin
+                    cors_headers["Access-Control-Allow-Credentials"] = "true"
+                return Response(status_code=204, headers=cors_headers)
+
+            # 2. Process GET / HEAD
+            try:
+                response = await call_next(request)
+            except Exception as exc:
+                logger.error("Error serving upload file: %s", exc)
+                response = Response(status_code=404, content='{"detail":"File not found"}', media_type="application/json")
+
+            if is_allowed:
+                response.headers["Access-Control-Allow-Origin"] = origin
+                response.headers["Access-Control-Allow-Credentials"] = "true"
+            response.headers["Access-Control-Allow-Methods"] = "GET, HEAD, OPTIONS"
             response.headers["Cross-Origin-Resource-Policy"] = "cross-origin"
-        return response
+            return response
+
+        return await call_next(request)
 
 app.add_middleware(_UploadsCORSMiddleware)
 app.mount("/uploads", StaticFiles(directory=upload_dir), name="uploads")

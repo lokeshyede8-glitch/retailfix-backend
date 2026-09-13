@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from database import engine, SessionLocal, get_db
 import models
 import schemas
-from routers import products, quotations, customers, payments, settings, leads, salesmen, telecallers, sheets_sync, followups, auth, reports, factory, inventory, factory_users
+from routers import products, quotations, customers, payments, settings, leads, salesmen, telecallers, sheets_sync, followups, auth, reports, factory, inventory, factory_users, analytics
 from auth_utils import get_current_user, CurrentUser
 
 # Load environment variables
@@ -439,6 +439,8 @@ app.include_router(reports.router)
 app.include_router(factory.router)
 app.include_router(inventory.router)
 app.include_router(factory_users.router)
+app.include_router(analytics.router)
+
 
 
 from fastapi.staticfiles import StaticFiles

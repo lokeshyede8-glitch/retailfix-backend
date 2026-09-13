@@ -1,4 +1,4 @@
-from pydantic import BaseModel, field_validator
+from pydantic import BaseModel, field_validator, computed_field
 from typing import Optional, List
 import re
 
@@ -866,6 +866,12 @@ class ProductionMaterialRequirementOut(BaseModel):
     manufacturing_status: str = "Pending"  # Pending | In Progress | Completed
     created_at: int
     model_config = {"from_attributes": True}
+
+    @computed_field
+    @property
+    def remaining_qty(self) -> float:
+        return max(0.0, float(self.required_qty or 0.0) - float(self.prepared_qty or 0.0))
+
 
 class MaterialProgressUpdate(BaseModel):
     """Input schema for factory worker material progress updates."""

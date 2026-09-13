@@ -761,6 +761,7 @@ def update_material_progress(
             "material_name": req.material_name,
             "required_qty": req.required_qty,
             "prepared_qty": req.prepared_qty,
+            "remaining_qty": max(0.0, float(req.required_qty or 0.0) - float(req.prepared_qty or 0.0)),
             "manufacturing_status": req.manufacturing_status
         })
     except Exception:
